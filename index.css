@@ -9,8 +9,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
   margin: 0;
@@ -22,7 +22,7 @@ time, mark, audio, video {
 }
 
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
@@ -66,7 +66,7 @@ body {
 
 /* font-size at 1.2rem (12px) */
 footer,
-input.form-control, 
+input.form-control,
 .form-agreement,
 .learn-more,
 .footer-terms,
@@ -197,7 +197,7 @@ input.form-control {
   width: 320px;
   min-width: 160px;
   padding-left: 8px;
-  padding-right: 6px;    
+  padding-right: 6px;
   border: 1px solid #c1c5c8;
 }
 
