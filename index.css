@@ -177,7 +177,8 @@ label {
   width: 380px;
 }
 
-.form-header, .description-container {
+.form-header,
+.description-container {
   text-align: center;
 }
 
@@ -190,7 +191,8 @@ label {
   line-height: 1.7;
 }
 
-.learn-more, .inline-terms {
+.learn-more,
+.inline-terms {
   text-decoration: none;
   color: #0077c5;
 }
