@@ -141,7 +141,7 @@ li .bottom-text {
   background: #1188d8;
 }
 
-/* Header with Logo and companies logo*/
+/* Header with Logo and companies logo */
 main {
   display: flex;
   flex-flow: column;
