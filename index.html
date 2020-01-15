@@ -3,7 +3,7 @@
     <head>
         <script src="https://kit.fontawesome.com/d4de0f4540.js" crossorigin="anonymous"></script>
         <title>Intuit Account - Sign Up</title>
-        
+        <link rel="stylesheet" href="index.css">
     </head>
 
     <body>
@@ -13,10 +13,13 @@
                     <div class="forgot-password">
                         <ul class="forgot-password-list">
                             <li class="top-text">Already have an Intuit account?</li>
-                            <li class="bottom-text"><a href="#">I forgot my User ID or Password</a></li>
+                            <li><a href="#" class="bottom-text">I forgot my User ID or Password</a></li>
                         </ul>
                     </div>
-                    <button type="button" name="sign-in" class="signin-button">Sign In</button>
+                    <button type="button" name="sign-in" class="signin-button">
+                        <i class="fas fa-lock"></i>
+                        Sign In
+                    </button>
                 </div>
             </nav>
 
@@ -39,8 +42,77 @@
                     </ul>
                 </div>
             </header>
-            
+            <form id="html-form">
+                <h2 class="form-header">Create an Intuit account</h2>
+                <div class="description-container">
+                    <p class="form-description">One account for everything Intuit, including Mint.</p>
+                    <a href="#" class="learn-more">Learn More</a>
+                </div>
+                <div class="form-group">
+                    <label id="email-label" for="email">Email address</label>
+                    <input 
+                        type="email" 
+                        name="email-address"
+                        id="email"
+                        class="form-control"
+                        placeholder="Enter your email address"
+                        required
+                    />
+                </div>
+                <div class="form-group">
+                    <label id="phone-label" for="number">Phone (recommended)</label>
+                    <input
+                        type="number" 
+                        name="phone-number"
+                        id="number"
+                        class="form-control"
+                        placeholder="Enter your phone number"
+                        required
+                    />
+                </div>
+                <div class="form-group">
+                    <label id="password-label" for="Password">Password</label>
+                    <input
+                        type="password" 
+                        name="password"
+                        id="password"
+                        class="form-control"
+                        placeholder="Enter your password"
+                        required
+                    />
+                </div>
+                <div class="form-group">
+                    <button type="submit" id="submit" class="signup-button">
+                        <i class="fas fa-lock"></i>
+                        Create Account
+                    </button>
+                </div>
+                <div class="form-agreement">
+                    <p class="terms-conditions">By clicking Create account, you agree to our <a href="#" class="inline-terms">Terms </a>and have read and acknowledge our <a href="#" class="inline-terms">Privacy Statement</a>.</p>
+                </div>
+                <div class="privacy-policy">
+                    <p class="policy-text">Invisible reCAPTCHA by Google <a href="#" class="inline=terms">Privacy Policy</a> and <a href="#" class="inline=terms">Terms of Use</a>.</p>
+                </div>
+            </form>            
         </main>
+        <footer>
+            <div class="footer-list-container">
+                <ul class="footer-list">
+                    <li>
+                        <a href="#" class="footer-terms">Legal</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-terms">Privacy</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-terms">Security</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-text">
+                <p class="copyright-text">&copy; 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.</p>
+                <p class="copyright-text">Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
+            </div>
+        </footer>
     </body>
-
 </html>
