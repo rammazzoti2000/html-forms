@@ -1,4 +1,4 @@
-# Embedding Images and Video Project
+# Html Forms Project
 
 > Mint replica
 
