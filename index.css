@@ -1,0 +1,357 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default padding */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Remove list styles on ul, ol elements with a class attribute */
+ul[class] {
+  list-style: none;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Natural flow and rhythm in articles by default */
+article > * + * {
+  margin-top: 1em;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+html {
+  font-size: 65%;
+  background: #eceef1;
+  color: #4c4c4c;
+  font-family: "AvenirNext", "Avenir", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+/* font-size at 1.2rem (12px) */
+footer,
+input.form-control,
+.form-agreement,
+.learn-more,
+.footer-terms,
+.forgot-password {
+  font-size: 1.2rem;
+}
+
+/* font-size at 1.4rem (14px) */
+.form-description,
+.signup-button {
+  font-size: 1.4rem;
+}
+
+/* Navigation Bar */
+.signin-container {
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px 30px;
+  height: 60px;
+}
+
+.forgot-password {
+  line-height: 1.5;
+  text-align: right;
+}
+
+li .bottom-text {
+  text-decoration: none;
+  color: #0077c5;
+}
+
+.signin-button {
+  margin-left: 10px;
+  background: #0077c5;
+  border-radius: 4px;
+  border: 1px solid #4c4c4c;
+  outline: none;
+  width: 104px;
+  height: 38px;
+  font-size: 1.35rem;
+  color: white;
+  cursor: pointer;
+}
+
+.signin-button:active {
+  outline: none;
+  background: #1188d8;
+}
+
+/* Header with Logo and companies logo */
+main {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 7em;
+}
+
+.flex-title ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.title {
+  display: block;
+  width: 118px;
+  height: 36px;
+  background: url(assets/sprite_intuit.png);
+  margin: 1em auto;
+}
+
+.title img {
+  width: 118px;
+  height: 36px;
+}
+
+.sprite li {
+  height: 23px;
+  margin-left: 9px;
+}
+
+.sprite li:nth-child(1) {
+  width: 75px;
+  background: url(assets/sprite_intuit.png) no-repeat -254px -56px;
+}
+
+.sprite li:nth-child(1) img {
+  width: 75px;
+  height: 23px;
+}
+
+.sprite li:nth-child(2) {
+  width: 133px;
+  background: url(assets/sprite_intuit.png) no-repeat -113px -56px;
+}
+
+.sprite li:nth-child(2) img {
+  width: 133px;
+  height: 23px;
+}
+
+.sprite li:nth-child(3) {
+  width: 113px;
+  background: url(assets/sprite_intuit.png) no-repeat 0 -56px;
+}
+
+.sprite li:nth-child(3) img {
+  width: 113px;
+  height: 23px;
+}
+
+/* Form with inputs and labels */
+
+label {
+  display: flex;
+  align-items: center;
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+  line-height: 25px;
+  padding-bottom: 6px;
+}
+
+#html-form {
+  background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 2px;
+  padding: 30px;
+  width: 380px;
+  margin-top: 18px;
+}
+
+.form-header,
+.description-container {
+  text-align: center;
+}
+
+.form-header {
+  font-size: 2.4rem;
+  line-height: 2.5;
+}
+
+.form-description {
+  line-height: 1.7;
+}
+
+.learn-more,
+.inline-terms {
+  text-decoration: none;
+  color: #0077c5;
+}
+
+button {
+  border: none;
+}
+
+input,
+button {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: 2.375rem;
+  padding: 0.375rem 0.75rem;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+input.form-control {
+  height: 34px;
+  width: 320px;
+  min-width: 160px;
+  padding-left: 8px;
+  padding-right: 6px;
+  border: 1px solid #c1c5c8;
+}
+
+input.form-control:focus {
+  outline: none;
+}
+
+.form-group {
+  margin: 0 auto 1.25rem auto;
+  padding: 0.25rem;
+}
+
+.signup-button {
+  background: #0077c5;
+  border-radius: 4px;
+  color: white;
+  width: 100%;
+  height: 44px;
+  cursor: pointer;
+}
+
+.signup-button:active {
+  outline: none;
+  background: #1188d8;
+}
+
+/* License container under signup button */
+.form-agreement {
+  font-style: italic;
+  color: #757575;
+  text-align: center;
+  line-height: 1.5;
+  font-weight: 400;
+  padding: 25px 20px 40px;
+}
+
+.privacy-policy {
+  background-color: #eceef1;
+  margin: -5px -30px -30px;
+  padding: 16px;
+  text-align: center;
+  height: 50px;
+}
+
+footer {
+  width: 90%;
+  text-align: center;
+  padding: 20px 0;
+  margin: 0 auto;
+  color: #505050;
+  line-height: 1.5;
+}
+
+ul.footer-list {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  list-style: none;
+  padding-top: 5px;
+}
+
+.footer-terms {
+  text-decoration: none;
+  color: #505050;
+}
+
+ul li .footer-terms {
+  padding: 7px;
+}
+
+.footer-terms:hover {
+  text-decoration: underline;
+}
