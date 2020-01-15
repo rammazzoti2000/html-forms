@@ -289,13 +289,13 @@ ul.footer-list {
   padding-top: 5px;
 }
 
-ul li .footer-terms {
-  padding: 7px;
-}
-
 .footer-terms {
   text-decoration: none;
   color: #505050;
+}
+
+ul li .footer-terms {
+  padding: 7px;
 }
 
 .footer-terms:hover {
