@@ -93,3 +93,17 @@ li .bottom-text {
     font-size: 1.35rem;
     color: white;
 }
+
+/* Header with Logo*/
+main {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#header-logo {
+    width: 300px;
+    height: 92px;
+}
+  
