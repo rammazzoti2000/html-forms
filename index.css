@@ -136,7 +136,7 @@ label {
 
 .form-description {
     font-size: 1.4rem;
-    line-height: 1.5;
+    line-height: 1.7;
 }
 
 .learn-more, .inline-terms {
@@ -220,4 +220,33 @@ button {
     margin: -5px -30px -30px;
     padding: 16px;
     text-align: center;
+    height: 50px;
+}
+
+footer {
+    width: 90%;
+    text-align: center;
+    padding: 20px 0;
+    margin: 0 auto;
+    color: #505050;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+ul.footer-list {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    list-style: none;
+    padding-top: 5px;
+}
+
+ul li .footer-terms {
+    padding: 7px;
+}
+
+.footer-terms {
+    text-decoration: none;
+    color: #505050;
+    font-size: 1.2rem;
 }
