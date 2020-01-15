@@ -38,8 +38,7 @@ body {
 }
 
 /* Remove list styles on ul, ol elements with a class attribute */
-ul[class],
-ol[class] {
+ul[class] {
   list-style: none;
 }
 
@@ -52,6 +51,10 @@ a:not([class]) {
 img {
   max-width: 100%;
   display: block;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 /* Natural flow and rhythm in articles by default */
@@ -77,18 +80,11 @@ select {
   }
 }
 
-* {
-  box-sizing: border-box;
-}
-
 html {
   font-size: 65%;
+  background: #eceef1;
   color: #4c4c4c;
   font-family: "AvenirNext", "Avenir", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-}
-
-body {
-  background: #eceef1;
 }
 
 /* font-size at 1.2rem (12px) */
