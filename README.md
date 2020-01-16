@@ -13,7 +13,7 @@ Rebuild of the form [Mint.com](https://accounts.intuit.com/signup.html?offering_
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/rammazzoti2000/html-forms/e4895025f3a3d041de6623e60ea01e7335348de9/index.html)
+[Live Demo Link](https://rawcdn.githack.com/rammazzoti2000/html-forms/69b84172f6e48dba3d277b84f98b419266bbd846/index.html)
 
 
 ## Authors
